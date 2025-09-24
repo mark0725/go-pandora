@@ -2,5 +2,5 @@ package pandora
 
 import "embed"
 
-//go:embed pandora/*
+//go:embed pandora/**
 var StaticFiles embed.FS
